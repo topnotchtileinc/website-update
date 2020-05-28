@@ -1,4 +1,4 @@
-/** $(function () {
+$(function () {
     var selectedClass = "";
     $(".filter").click(function () {
         selectedClass = $(this).attr("data-rel");
@@ -9,12 +9,4 @@
             $("#gallery").fadeTo(300, 1);
         }, 300);
     });
-}); **/
-
-
-
-  $(function () {
-    $(".btn").click(function(){
-        alert("The paragraph was clicked.");
-      });
 });
