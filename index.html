@@ -2,117 +2,114 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <title>Hello, world!</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>TNT | Home</title>
 </head>
 
 <body>
-    <!-- Page Content -->
-    <div class="container page-top">
 
+  <!-- Home Page body -->
 
+  <div class="home">
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-between">
+      <a class="navbar-brand" href="./index.html">TNT</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/about/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/services/">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/gallery/">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/reviews/">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pages/contact/">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <div class="row">
+    <!-- Landing Title Page -->
+    <div id="titlePage">
+      <div class="container company-name">
+        <h1>TNT</h1>
+        <h2>Top Notch Tile</h2>
+      </div>
+    </div>
+    <!-- About Section -->
+    <div class="about">
 
-            <div id="myBtnContainer">
-                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-                <button class="btn" onclick="filterSelection('shower')"> Shower/Bath</button>
-                <button class="btn" onclick="filterSelection('cars')"> Floor</button>
-                <button class="btn" onclick="filterSelection('people')"> Backsplash</button>
-            </div>
-            <div class="row" id="gallery">
-                <div class="col-lg-3 col-md-4 col-6 thumb">
-                    <a href="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                        class="fancybox transition" rel="ligthbox">
-                        <img src="https://images.pexels.com/photos/62307/air-bubbles-diving-underwater-blow-62307.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                            class="zoom img-fluid " alt="">
-
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-6 thumb ">
-                    <a href="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                        class="fancybox transition" rel="ligthbox">
-                        <img src="https://images.pexels.com/photos/38238/maldives-ile-beach-sun-38238.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                            class="zoom img-fluid" alt="">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6 thumb">
-                    <a href="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        class="fancybox transition" rel="ligthbox">
-                        <img src="https://images.pexels.com/photos/158827/field-corn-air-frisch-158827.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                            class="zoom img-fluid " alt="">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6 thumb">
-                    <a href="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        class="fancybox transition" rel="ligthbox">
-                        <img src="https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                            class="zoom img-fluid " alt="">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6 thumb">
-                    <a href="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                        class="fancybox transition" rel="ligthbox">
-                        <img src="https://images.pexels.com/photos/1038914/pexels-photo-1038914.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                            class="zoom img-fluid " alt="">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6 thumb 2 all">
-                    <a href="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                        class="fancybox transition" rel="ligthbox">
-                        <img src="https://images.pexels.com/photos/414645/pexels-photo-414645.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
-                            class="zoom img-fluid " alt="">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6 thumb">
-                    <a href="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        class="fancybox transition" rel="ligthbox">
-                        <img src="https://images.pexels.com/photos/56005/fiji-beach-sand-palm-trees-56005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                            class="zoom img-fluid " alt="">
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-6 thumb">
-                    <a href="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                        class="fancybox transition" rel="ligthbox">
-                        <img src="https://images.pexels.com/photos/1038002/pexels-photo-1038002.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                            class="zoom img-fluid " alt="">
-                    </a>
-                </div>
-            </div>
-
-
-
-        </div>
-
-
-
+      <p>We are determined to provide our customers the best service and experience possible from beginning to
+        end. From our friendly staff to our quality craftsmanship, Top Notch Tile will change the way you think
+        when it comes to remodeling your home.</p>
 
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./script.js"></script>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+
+        <!-- Grid row -->
+        <div class="row">
+
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+
+            <!-- Content -->
+            <p>&copy; TNT Top Notch Tile</p>
+            <a href="https://www.bbb.org/us/ca/herald/profile/ceramic-tile-contractors/tnt-top-notch-tile-inc-1156-47045059/#sealclick"
+              target="_blank" rel="nofollow"><img
+                src="https://seal-necal.bbb.org/seals/darkgray-seal-150-110-whitetxt-bbb-47045059.png"
+                style="border: 0;" alt="TNT Top Notch Tile Inc BBB Business Review" /></a>
+
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none pb-3">
+
+          <div class="web-stat">
+            <!-- Begin Web-Stat code v 7.0 -->
+            <span id="wts1980704"></span>
+            <script>var wts = document.createElement('script'); wts.async = true;
+              wts.src = 'https://wts.one/log7.js'; document.head.appendChild(wts);
+              wts.onload = function () { wtslog7(1980704, 3); };
+            </script>
+            <!-- End Web-Stat code v 7.0 -->
+          </div>
+
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

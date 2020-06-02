@@ -1,0 +1,207 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+.navbar-brand {
+  font-family: "Cinzel", serif;
+}
+  
+.navbar-nav {
+  float: right;
+}
+
+p,
+li {
+  font-size: 16px;
+}
+  
+.container {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+  
+.home {
+  background: url("../images/tile-min.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+  
+  
+#titlePage {
+  padding-top: 150px;
+  text-align: center;
+  height: 600px;
+  text-align: center;
+  color: rgb(217, 226, 255);
+  background: rgba(73, 74, 77, 0.829);
+}
+  
+.company-name h1 {
+  font-size: 6.0em;
+  font-family: "Cinzel", serif;
+}
+
+.company-name h2 {
+  font-size: 1.5em;
+}
+  
+.about {
+  margin: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.89);
+  padding: 16%;
+}
+  
+.about p {
+  text-align: center;
+  font-size: 1em;
+  font-style: italic;
+}
+  
+footer {
+  padding: 2rem;
+  color: white;
+  background: rgb(80, 100, 131);
+}
+  
+.footer a {
+  color: white;
+}
+  
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: rgb(202, 202, 202);
+}
+  
+  .footer ul {
+    list-style-type: none;
+  }
+  
+.contact-page {
+  padding: 5%;
+  text-align: center;
+}
+  
+address {
+  font-size: 16px;
+}
+  
+.border {
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+  
+.img-responsive {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+  border-radius: 5px;
+  }
+  
+  .row {
+    padding: 5%;
+    width: 100%;
+  }
+  
+  .services-list {
+    padding-bottom: 4%;
+    text-align: center;
+  }
+  
+  .services-list span {
+    font-style: italic;
+    font-size: 1.3em;
+    padding-right: 3%;
+    color: #8f8f8f;
+  }
+  
+  
+  @media (max-width: 400px) {
+    .btn.filter {
+      padding-left: 1.1rem;
+      padding-right: 1.1rem;
+    }
+  }
+
+  
+  .web-stat {
+    display: none;
+  }
+
+  .gallery {
+    background-color:#1d1d1d !important;
+    font-family: "Asap", sans-serif;
+    color:#989898;
+    margin:10px;
+    font-size:16px;
+  }
+
+  .gallery-title {
+    text-align: center;
+    color: rgb(161, 161, 161);
+    font-style: italic;
+    font-size: 50px;
+}
+  
+  #demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  
+  .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+          
+          .page-top{
+              margin-top:85px;
+          }
+  
+     
+img.zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+.transition:hover {
+      opacity: 0.7;
+      -webkit-transform: scale(1.0); 
+      -moz-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      transform: scale(1.0);
+  }
+
+.transition img:hover {
+        opacity: 1;
+        -webkit-transform: scale(1.2); 
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+  }
+
+  @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+
